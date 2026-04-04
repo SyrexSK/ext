@@ -10,8 +10,27 @@ entries:
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
+    appVersion: 0.1.1
+    created: '2026-04-05T01:15:44+03:00'
+    description: Cluster-level Rancher extension for Kubernetes scanner history and
+      manual runs
+    digest: 6fc42c5c672be438a35b7a2f5db396f2f802192422e5f0d0a6fc7f729e36b6c6
+    name: k8s-scanner-cluster
+    type: application
+    urls:
+    - assets/k8s-scanner-cluster/k8s-scanner-cluster-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>=2.10.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-05T00:59:04.346960734+03:00"
+    created: '2026-04-05T00:59:04.346960734+03:00'
     description: Cluster-level Rancher extension for Kubernetes scanner history and
       manual runs
     digest: 4dda5a9eb53f18a8188259268911ced361473f12ba9e604d02a51c3a700e1bd8
@@ -20,4 +39,4 @@ entries:
     urls:
     - assets/k8s-scanner-cluster/k8s-scanner-cluster-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-05T00:59:04.346810464+03:00"
+generated: '2026-04-05T01:15:44+03:00'
