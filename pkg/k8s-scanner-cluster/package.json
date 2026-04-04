@@ -1,0 +1,13 @@
+{
+  "name": "k8s-scanner-cluster",
+  "version": "0.1.10",
+  "description": "Cluster-level Rancher extension for Kubernetes scanner history and manual runs",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "rancher": {
+    "annotations": {
+      "catalog.cattle.io/rancher-version": ">=2.10.0-0",
+      "catalog.cattle.io/ui-extensions-version": ">=3.0.0 <4.0.0"
+    }
+  }
+}

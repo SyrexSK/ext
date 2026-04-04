@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-pkg/
+tmp/
+assets/
+charts/
+extensions/
+index.yaml
+.env
+yarn-error.log
