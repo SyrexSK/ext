@@ -1,9 +1,0 @@
-nameOverride: ""
-fullnameOverride: ""
-plugin:
-  enabled: true
-  versionOverride: ""
-  noCache: false
-  noAuth: false
-  metadata:
-    catalog.cattle.io/rancher-version: ">=2.10.0-0"
