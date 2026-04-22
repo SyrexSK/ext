@@ -1,0 +1,4 @@
+plugin/k8s-scanner-cluster-0-1-19.css
+plugin/k8s-scanner-cluster-0-1-19.umd.min.js
+plugin/k8s-scanner-cluster-0-1-19.umd.min.js.map
+plugin/package.json
