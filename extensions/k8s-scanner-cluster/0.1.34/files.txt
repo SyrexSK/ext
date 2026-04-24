@@ -1,0 +1,3 @@
+k8s-scanner-cluster-0-1-34.css
+k8s-scanner-cluster-0-1-34.umd.min.js
+package.json
