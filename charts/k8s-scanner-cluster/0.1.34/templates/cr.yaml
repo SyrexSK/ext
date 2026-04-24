@@ -8,7 +8,7 @@ spec:
   plugin:
     name: {{ include "extension-server.fullname" . }}
     version: {{ (semver (default .Chart.AppVersion .Values.plugin.versionOverride)).Original }}
-    endpoint: https://syrexsk.github.io/ext/extensions/k8s-scanner-cluster/0.1.34/plugin/k8s-scanner-cluster-0.1.34.umd.min.js
+    endpoint: https://syrexsk.github.io/ext/extensions/k8s-scanner-cluster/0.1.34/plugin/k8s-scanner-cluster-0-1-34.umd.min.js
     noCache: {{ .Values.plugin.noCache }}
     noAuth: {{ .Values.plugin.noAuth }}
     metadata: {{ include "extension-server.pluginMetadata" . | indent 6 }}

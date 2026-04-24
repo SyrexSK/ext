@@ -16,8 +16,8 @@ entries:
       name: k8s-scanner-cluster
       type: application
       version: 0.1.34
-      created: "2026-04-24T17:30:23+03:00"
-      digest: 0553e905784013ed1cd0189417a858bc5aba6ece8ada58cf87f4a6edf1a54fb3
+      created: "2026-04-24T17:30:53+03:00"
+      digest: a6f5eab7bf58699671e7571202b2f0b43dcfe7ee62a74db96e793e8bb317d11c
       urls:
         - assets/k8s-scanner-cluster/k8s-scanner-cluster-0.1.34.tgz
     - annotations:
